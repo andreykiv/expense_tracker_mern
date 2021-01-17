@@ -4,7 +4,7 @@ const cors = require('cors')
 const colors = require('colors')
 const connectDB = require('./config/db')
 
-dotenv.config({path: './config/config.env'})
+dotenv.config({path: './config/.env'})
 
 connectDB();
 
