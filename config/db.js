@@ -1,6 +1,5 @@
 // this file will be used to connect our database.
-
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 //it always returns a promise when we try to connect to our database (asynchronous operation)
 const connectDB = async () => {
